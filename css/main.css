@@ -1,0 +1,69 @@
+/* Tu CSS va aqui */
+
+.body{
+	color:#D6CBCB;
+	font-family: Open+Sans;
+}
+
+
+.indice  nav ul a li {
+	/* style */
+	text-decoration: none;
+	list-style: none;
+	float: right;
+	padding: 2%;
+	margin-right: 26%;
+	font-weight: 500px;
+	font-size: 20px;
+
+}
+
+.cielo{
+	background: url(../image/Cielo-estrellado-con-nubes3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 280%;
+	width: 100%;
+	padding-bottom: 100%;
+	padding: 50px 50px; 
+}
+
+.txtuno{
+	text-align: center;
+	font-size: 80px;
+}
+.gris{
+	background-color:#A29B9B;
+	width: 215px;
+	padding:30px;
+	border-radius: 10px;
+
+}
+
+@media (min-width: 535px) and (max-width: 824px){
+	body{
+	background-color:#57A963;
+	}
+	h1{
+		font-size: 40px;
+	}
+	p{
+		font-size: 40px;
+	}
+
+	.indice{
+		font-size: 40px;
+	}
+	.cielo{
+		font-size: 40px;
+	}
+	.txtuno{
+		font-size: 40px;
+	}
+	.gris{
+		font-size: 40px;
+	}
+}
+
+
