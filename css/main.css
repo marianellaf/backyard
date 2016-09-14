@@ -1,21 +1,27 @@
 /* Tu CSS va aqui */
 
 .body{
-	color:#D6CBCB;
-	font-family: Open+Sans;
+	
+	font-family: Open Sans;
 }
 
 
-.indice  nav ul a li {
-	/* style */
+ a  {
+	/* menu */
 	text-decoration: none;
-	list-style: none;
-	float: right;
+	cursor:pointer;
 	padding: 2%;
-	margin-right: 26%;
-	font-weight: 500px;
+	margin-left: 26%;
 	font-size: 20px;
+	margin-top: 10px
 
+}
+li{
+	display: inline-block;
+	list-style: none;
+}
+.indice{
+	text-align:right; 
 }
 
 .cielo{
@@ -25,30 +31,65 @@
 	background-position: center;
 	height: 280%;
 	width: 100%;
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 	padding: 50px 50px; 
 }
 
-.txtuno{
-	text-align: center;
-	font-size: 80px;
+.txt h1{
+	color:#fff;
+	margin-top: 10%;
+	margin-right: 5%;
+	font-size: 50px;
+	text-decoration-line: 2px;
 }
+.txt p{
+	color:#fff;
+	font-size:20px;
+	margin-top: 20px;
+	margin-right: 5%;
+	margin-bottom: 20%; 
+
+}
+
 .gris{
 	background-color:#A29B9B;
-	width: 215px;
+	width: 300px;
 	padding:30px;
 	border-radius: 10px;
+}
+#nombre{
+	font-size: 20px;
 
+}
+
+#mail{
+	font-size: 20px;
+}
+#suscribe{
+	font-size: 20px;
+}
+.form{
+	text-align: right;
+	background-color: #333333;
+	border-radius: 10px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+
+}
+
+.foo{
+	font-size: 40
 }
 
 @media (min-width: 535px) and (max-width: 824px){
 	body{
 	background-color:#57A963;
 	}
-	h1{
+	a{
+
 		font-size: 40px;
 	}
-	p{
+	li{
 		font-size: 40px;
 	}
 
@@ -58,11 +99,24 @@
 	.cielo{
 		font-size: 40px;
 	}
-	.txtuno{
+	.txth1{
 		font-size: 40px;
+	}
+	.txtp{
+		font-size: 30px
 	}
 	.gris{
 		font-size: 40px;
+	}
+
+	#nombre{
+		font-size: 30px;
+	}
+	#mail{
+		font-size: 30px;
+	}
+	#suscribe{
+		font-size: 30px;
 	}
 }
 
